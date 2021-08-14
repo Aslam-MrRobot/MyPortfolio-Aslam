@@ -126,7 +126,7 @@
 #firstsection #imageback {
   height: 28rem;
   position: relative;
-  top: 10px;
+  top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,6 +211,7 @@
     font-size: xx-large;
     max-width: 50%;
     margin-top: 50px;
+    margin-bottom: 20%;
     letter-spacing: 1px;
     font-family: sans-serif;
   }

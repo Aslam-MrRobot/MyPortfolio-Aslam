@@ -70,6 +70,7 @@ body {
     padding: 10px;
     transform: translate(100px, 0px);
     letter-spacing: 1px;
+    margin-top: 2%;
   }
   .imagekaback {
     width: 60%;
@@ -88,10 +89,7 @@ body {
     background-color: #e9e8e8;
     border: 1px solid black;
     overflow: hidden;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 10%;
-    border-end-start-radius: 10%;
-    border-end-end-radius: 20%;
+    border: 20%;
   }
   #image img {
     height: 120%;

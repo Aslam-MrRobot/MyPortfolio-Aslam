@@ -216,14 +216,14 @@ p {
     height: auto;
     width: 70%;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
   #service #secondbox {
     margin: auto;
     height: auto;
     width: 70%;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   #service #firstbox p {
     font-size: xxx-large;
@@ -255,6 +255,7 @@ p {
   #mainbox {
     height: auto;
     margin-top: 50px;
+    margin-bottom: 20px;
     width: 70%;
     padding: 20px;
   }
