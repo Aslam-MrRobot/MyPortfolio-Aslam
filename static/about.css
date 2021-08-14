@@ -69,6 +69,7 @@ body {
     font-size: xxx-large;
     padding: 10px;
     transform: translate(100px, 0px);
+    letter-spacing: 1px;
   }
   .imagekaback {
     width: 60%;
@@ -77,7 +78,8 @@ body {
   }
   #image {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,15 +111,17 @@ body {
   }
   #about div {
     display: block;
-    font-size: xxx-large;
+    font-size: xx-large;
     margin: 20px 0;
     font-family: system-ui;
+    letter-spacing: 1px;
   }
   #about span {
     display: block;
     font-size: xx-large;
     margin: 20px 0;
     font-family: system-ui;
+    letter-spacing: 1px;
   }
   #aboutback {
     width: 100%;

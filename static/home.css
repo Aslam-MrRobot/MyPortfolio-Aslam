@@ -126,7 +126,7 @@
 #firstsection #imageback {
   height: 28rem;
   position: relative;
-  top: 50px;
+  top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,7 +199,7 @@
   }
   #footer #para {
     margin: auto;
-    font-size: xxx-large;
+    font-size: xx-large;
     max-width: 50%;
     margin-bottom: 10px;
     margin-top: 50px;
@@ -208,7 +208,7 @@
   }
   #footer #para2 {
     margin: auto;
-    font-size: xxx-large;
+    font-size: xx-large;
     max-width: 50%;
     margin-top: 50px;
     letter-spacing: 1px;
