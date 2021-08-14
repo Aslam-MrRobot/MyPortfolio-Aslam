@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/aslamzone', { useNewUrlParser: true, useUnifiedTopology: true });
 
 let app = express();
-let port = 8000;
+let port = process.env.PORT || 8000;
 
 const kittyschema = new mongoose.Schema({
     name:String,
