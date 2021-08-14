@@ -1,0 +1,51 @@
+extends base.pug
+
+block script 
+    script(src="../static/index.js")
+
+block style 
+    style 
+        include ../static/services.css
+        include ../static/home.css
+
+block content 
+  div#content
+    h2#overheadline Our Services
+    div#service
+        div#firstbox
+             div#disignimage
+                img(src="../static/design2.jpg")
+             p Web Designing
+             span We can make Creative Web Designs and also Resposive websites which can support any devices, It will make very easy to use for you and your users. 
+        div#secondbox
+            div#developimage
+                img(src="../static/develop2.jpg")
+            p Web Development
+            span Where increasing the Digital Market we can develop your website to grow your online business/market level, and with this your product,items will be Safe that image will help you to gaining new customers every single day
+    div#mainbox
+        h2 Skills
+        div#firstcover
+            span HTML
+            div#firstprogress
+                div
+            p 80%
+        div#secondcover
+            span CSS
+            div#secondprogress
+                div
+            p 70%
+        div#thirdcover
+            span JavaScript
+            div#thirdprogress
+                div
+            p 50%
+        div#fourthcover
+            span NodeJS
+            div#fourthprogress
+                div
+            p 50%
+        div#fivecover
+            span MongoDB
+            div#fiveprogress
+                div
+            p 40%

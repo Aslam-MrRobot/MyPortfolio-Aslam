@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title My Site - #{title}
+    
+    block style
+  body
+
+  nav#nav
+    ul#ul
+      //- div#logo
+      //-   img(src="/static/bg.jpg")
+      li #[a(href='/') Home]
+      li #[a(href='/about') About]
+      li #[a(href='/services') Services]
+      //- li #[a(href='/recentwork') Recentwork]
+      li #[a(href='/contact') Contact me]
+      
+
+    div.togglebtn 
+      div.firstline
+      div.secondline
+      div.thirdline
+    div.navdiv
+      ul.navul
+        li #[a(href='/') Home]
+        li #[a(href='/about') About]
+        li #[a(href='/services') Services]
+        li #[a(href='/contact') Contact me]     
+
+  block script  
+block content
+
+block foot

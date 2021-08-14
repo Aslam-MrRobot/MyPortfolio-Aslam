@@ -1,0 +1,20 @@
+extends base.pug
+
+block script 
+    script(src="../static/index.js")
+
+block style 
+    style 
+        include ../static/contact.css
+        include ../static/home.css
+
+block content 
+  div#mainbox
+    form(action="https://formspree.io/f/mzbykbjz", method="post")
+      input#firstinput(type="text", name="name", placeholder="Enter your name")
+      input(type="number", name="number", placeholder="Enter your Number")
+      input(type="email", name="email", placeholder="Enter your email")
+      input#lastinput(type="address", name="address", placeholder="Enter your Address")
+      input#textinput(type="text", name="dsc", placeholder="Description")
+      button#btn(type="submit") Submit 
+  

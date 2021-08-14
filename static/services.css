@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url('./homeback.jpg'); */
+}
+
+#overheadline {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#service {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vh;
+  width: auto;
+  margin: 5px;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+#service #firstbox {
+  height: auto;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+#service #secondbox {
+  height: auto;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+#service #firstbox p {
+  align-items: center;
+  font-weight: bold;
+  font-family: cursive;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+#service #firstbox span {
+  font-weight: bold;
+  font-family: cursive;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: smaller;
+  padding: 10px;
+}
+#service #firstbox #disignimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service #firstbox #disignimage img {
+  height: 100px;
+}
+#service #secondbox p {
+  font-weight: bold;
+  font-family: cursive;
+  margin-top: 0;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service #secondbox #developimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service #secondbox #developimage img {
+  height: 100px;
+  border-radius: 5px;
+}
+#service #secondbox span {
+  font-weight: bold;
+  font-family: cursive;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: smaller;
+  padding: 5px;
+}
+
+#mainbox {
+  height: 23rem;
+  width: 35rem;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#mainbox h2 {
+  font-weight: bold;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+#mainbox #firstcover {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainbox #firstcover span,
+p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mainbox #firstcover #firstprogress {
+  border-radius: 6px;
+  height: 20px;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 0 5px;
+}
+#mainbox #firstcover #firstprogress div {
+  height: 20px;
+  width: 20rem;
+  background-color: blue;
+}
+#mainbox #secondcover,
+#thirdcover,
+#fourthcover,
+#fivecover {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainbox #secondcover,
+#thirdcover,
+#fourthcover,
+#fivecover span,
+p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mainbox #secondcover #secondprogress {
+  border-radius: 6px;
+  height: 20px;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 0 5px;
+}
+#mainbox #secondcover #secondprogress div {
+  height: 20px;
+  width: 17rem;
+  background-color: blue;
+}
+#mainbox #thirdcover #thirdprogress {
+  border-radius: 6px;
+  height: 20px;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 0 5px;
+}
+#mainbox #thirdcover #thirdprogress div {
+  height: 20px;
+  width: 17rem;
+  background-color: blue;
+}
+#mainbox #fourthcover #fourthprogress {
+  border-radius: 6px;
+  height: 20px;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 0 5px;
+}
+#mainbox #fourthcover #fourthprogress div {
+  height: 20px;
+  width: 14rem;
+  background-color: blue;
+}
+#mainbox #fivecover #fiveprogress {
+  border-radius: 6px;
+  height: 20px;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 0 5px;
+}
+#mainbox #fivecover #fiveprogress div {
+  height: 20px;
+  width: 12rem;
+  background-color: blue;
+}
+
+/* media script ************************* */
+
+@media screen and (max-width: 1000px) {
+  #overheadline {
+    font-size: xxx-large;
+    margin: 20px;
+    transform: translate(100px, 0px);
+  }
+  #service {
+    height: auto;
+    display: block;
+  }
+  #service #firstbox {
+    margin: auto;
+    height: auto;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  #service #secondbox {
+    margin: auto;
+    height: auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  #service #firstbox p {
+    font-size: xxx-large;
+    margin: 20px 0;
+  }
+  #service #firstbox span {
+    font-size: x-large;
+  }
+
+  #service #firstbox #disignimage img {
+    height: 15rem;
+  }
+  #service #secondbox p {
+    font-size: xxx-large;
+    margin: 20px 0;
+  }
+
+  #service #secondbox #developimage img {
+    height: 15rem;
+    border-radius: 15px;
+  }
+  #service #secondbox span {
+    font-size: x-large;
+  }
+  #mainbox {
+    height: auto;
+    margin-top: 50px;
+    width: 70%;
+    padding: 20px;
+  }
+  #mainbox h2 {
+    padding: 10px 0;
+    font-size: xxx-large;
+  }
+
+  #mainbox span,
+  p {
+    font-size: xx-large;
+    padding: 0 10px;
+  }
+  #mainbox #firstcover #firstprogress {
+    width: 100%;
+  }
+  #mainbox #firstcover #firstprogress div {
+    width: 80%;
+  }
+  #mainbox #secondcover,
+  #thirdcover,
+  #fourthcover,
+  #fivecover {
+    margin: 60px 0;
+  }
+
+  #mainbox #secondcover #secondprogress {
+    width: 100%;
+  }
+  #mainbox #secondcover #secondprogress div {
+    width: 70%;
+  }
+  #mainbox #thirdcover #thirdprogress {
+    width: 100%;
+  }
+  #mainbox #thirdcover #thirdprogress div {
+    width: 50%;
+  }
+  #mainbox #fourthcover #fourthprogress {
+    width: 100%;
+  }
+  #mainbox #fourthcover #fourthprogress div {
+    width: 50%;
+  }
+  #mainbox #fivecover #fiveprogress {
+    width: 100%;
+  }
+  #mainbox #fivecover #fiveprogress div {
+    width: 40%;
+  }
+}
