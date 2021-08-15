@@ -77,10 +77,11 @@ textarea {
     transform: translate(0px, 50px);
   }
   #btn {
-    font-size: xx-large;
+    font-size: xxx-large;
     display: block;
-    width: 30%;
-    height: 65px;
+    width: 40%;
+    padding: 10px;
+    height: 75px;
   }
   #lastinput {
     margin-bottom: 6rem;

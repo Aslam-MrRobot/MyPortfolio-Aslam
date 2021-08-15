@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -211,9 +213,9 @@
     font-size: xx-large;
     max-width: 50%;
     margin-top: 50px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     letter-spacing: 1px;
-    font-family: sans-serif;
+    font-family: "Permanent Marker", cursive;
   }
   #ul {
     display: flex;
