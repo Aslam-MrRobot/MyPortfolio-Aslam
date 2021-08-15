@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Sniglet&display=swap");
-
 * {
   margin: 0px;
   padding: 0px;
@@ -215,7 +213,7 @@
     margin-top: 50px;
     margin-bottom: 10%;
     letter-spacing: 1px;
-    font-family: "Permanent Marker", cursive;
+    font-family: sans-serif;
   }
   #ul {
     display: flex;

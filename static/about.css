@@ -111,21 +111,24 @@ body {
     display: block;
     font-size: xx-large;
     margin: 20px 0;
-    font-family: "Sniglet", cursive;
+    font-family: system-ui;
     letter-spacing: 1px;
   }
   #about span {
     display: block;
     font-size: xx-large;
     margin: 20px 0;
-    font-family: "Sniglet", cursive;
+    font-family: system-ui;
     letter-spacing: 1px;
   }
   #aboutback {
+    height: 75rem;
     width: 100%;
     border-radius: 5px;
     background-color: #fce4ec;
-
     color: #1c2f9b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
